@@ -1,0 +1,27 @@
+body{
+	background-image: url("bac.jpg");
+  margin: 0px;
+  padding: 0px;
+}
+ h1:before {
+    background-color:red;
+    border-radius: 0rem;
+    content: ' ';
+    display: block;
+    height: 0rem;
+    width: 0px;
+    margin-bottom: 0.2rem;
+}
+#left-nav{
+  float:left;
+}
+ul li{
+  list-style-type: none;
+}
+#right-nav{
+  float:right;color: white;font-size: 30px;font-weight:500; text-transform:uppercase;
+}
+header{
+  background: black;
+  height: 100px;
+}
